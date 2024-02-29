@@ -1,4 +1,5 @@
 # Pneumonia-Prediction-with-Machine-Learning
+
 This project focuses on leveraging machine learning techniques to predict whether a person has pneumonia based on chest X-ray images. Pneumonia is a prevalent respiratory infection, and early detection is crucial for effective treatment. The goal is to provide a tool that aids medical professionals in making faster and more accurate diagnoses.
 
 ## Overview:
@@ -30,12 +31,12 @@ cd pneumonia-prediction
 pip install -r requirements.txt
 ````
 
-Usage:
+## Usage:
 Once the installation is complete, you can run the prediction script:
 
 ``` python predict.py --image path/to/your/xray/image.jpg ```
 
-Dataset:
+## Dataset:
 The dataset used in this project consists of chest X-ray images labeled as normal or pneumonia. 
 
 The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal). 
@@ -48,16 +49,16 @@ All chest X-ray imaging was performed as part of patients’ routine clinical ca
 
 For the analysis of chest x-ray images, all chest radiographs were initially screened for quality control by removing all low quality or unreadable scans. The diagnoses for the images were then graded by two expert physicians before being cleared for training the AI system. In order to account for any grading errors, the evaluation set was also checked by a third expert.
 
-Model Architecture:
+## Model Architecture:
 The training script and model files are available in the model directory.
 
-Results:
+## Results:
 Our model achieved [insert accuracy, precision, recall, etc. metrics] on the test set. More details can be found in the results directory.
 
-Contributing:
+## Contributing:
 If you'd like to contribute to this project, please follow the contribution guidelines.
 
-License:
+## License:
 This project is licensed under the MIT License.
 
 Feel free to customize the README to fit your specific project details and structure. 
