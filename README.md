@@ -48,3 +48,16 @@ All chest X-ray imaging was performed as part of patients’ routine clinical ca
 
 For the analysis of chest x-ray images, all chest radiographs were initially screened for quality control by removing all low quality or unreadable scans. The diagnoses for the images were then graded by two expert physicians before being cleared for training the AI system. In order to account for any grading errors, the evaluation set was also checked by a third expert.
 
+Model Architecture:
+The training script and model files are available in the model directory.
+
+Results:
+Our model achieved [insert accuracy, precision, recall, etc. metrics] on the test set. More details can be found in the results directory.
+
+Contributing:
+If you'd like to contribute to this project, please follow the contribution guidelines.
+
+License:
+This project is licensed under the MIT License.
+
+Feel free to customize the README to fit your specific project details and structure. 
